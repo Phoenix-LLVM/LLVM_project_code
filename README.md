@@ -1,5 +1,9 @@
 # LLVM_project_code
 
+# Multi Task Reinforcement Learning Architecture Proposals
+- To look at our proposed MTRL architectures using CLIP and Qwen-VL, you can naviagte to
+
+
 # Training
 ### Prepare the dataset:
 - Follow the dataset_preparation/Training Data Preparation_100k.ipynb to create dataset for training.
