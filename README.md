@@ -1,7 +1,7 @@
 # LLVM_project_code
 
 # Multi Task Reinforcement Learning Architecture Proposals
-- To look at our proposed MTRL architectures using CLIP and Qwen-VL, you can naviagte to
+- To look at our proposed MTRL architectures using CLIP and Qwen-VL, you can navigate to Multi_Task_Reinforcement_Learning_Architecture_Proposals folder and look at the notebooks listed for different models
 
 
 # Training
