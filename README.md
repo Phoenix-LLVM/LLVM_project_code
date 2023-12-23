@@ -98,7 +98,18 @@ pip install -r tcp_env_requirements.txt
 ## To benchmark our model:
 - Update ```CARLA_ROOT``` with the root folder of CARLA_0.9.10.1 in sh leaderboard/scripts/run_evaluation_carla.sh
 - Enable modelenv and start jupyter notebook server.
-- Open Control_Prediction.ipynb and follow the steps there.
+- Download all the files in this google bucket using
+- gsutil -m cp \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/README.md" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/adapter_config.json" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/adapter_model.bin" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/qwen.tiktoken" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/special_tokens_map.json" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/tokenizer_config.json" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/trainer_state.json" \
+  "gs://carla_dataset_bucket/output_carla_25K_automated/training_args.bin" \
+  .
+- Open Control_Prediction.ipynb and follow the steps there and load the weights downloaded.
 - After you run all the cells in the notebook, run
 ```sh leaderboard/scripts/run_evaluation_carla.sh```
 
